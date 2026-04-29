@@ -1,0 +1,7 @@
+{
+  "name": "AudioRestore AI",
+  "description": "AI-powered audio diagnosis and restoration service.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

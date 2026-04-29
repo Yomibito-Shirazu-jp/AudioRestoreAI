@@ -1,0 +1,37 @@
+# ── Dependencies ──
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── Environment / Secrets ──
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.local
+
+# ── Build output ──
+dist/
+build/
+*.egg-info/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Temp / Upload ──
+*.tmp
+uploads/
+tmp/
+
+# ── Logs ──
+*.log

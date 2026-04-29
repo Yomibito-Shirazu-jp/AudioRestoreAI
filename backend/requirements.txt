@@ -1,0 +1,26 @@
+# ══════════════════════════════════════════
+# AudioRestoreAI — Python Backend Dependencies
+# WhitePrint AudioEngine Integration
+# ══════════════════════════════════════════
+
+# ── Core DSP (Audition + Rendition-DSP) ──
+numpy>=1.26,<2.0
+scipy>=1.12,<2.0
+soundfile>=0.12,<1.0
+
+# ── API Framework ──
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.9,<1.0
+pydantic>=2.10.0
+
+# ── LLM Providers (Deliberation — TRIVIUM 3-Sage) ──
+google-genai>=1.0,<2.0
+openai>=1.0,<3.0
+anthropic>=0.30,<1.0
+
+# ── HTTP Client (URL-based audio fetch) ──
+httpx>=0.28.0
+
+# ── Environment ──
+python-dotenv>=1.0.0
